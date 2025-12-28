@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Beavogui Barrè</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav class="navbar">
+            <!-- Bouton hamburger -->
+            <div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        <!-- ===== ACCUEIL ===== -->
+        <section id="accueil" class="hero">
+            <div class="hero-content hero-flex">
+                <div class="hero-text">
+                    <p>Bonjour, je suis</p>
+                    <h1>BEAVOGUI Barrè</h1>
+                    <p id="titre"></p>
+
+                    <div class="hero-buttons">
+                        <a href="cv/Barrè_Beavogui_CV.pdf" class="btn" download>
+                            <i class="fa-solid fa-file-arrow-down"></i> Télécharger mon CV
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-solid fa-envelope"></i> Me contacter
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="Portrait de Beavogui Barrè, développeur web junior">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== À PROPOS ===== -->
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+            <p>
+                Diplômé en Informatique Appliquée à la Gestion des Entreprises, 
+                je suis Bot Trainer chez Orange Guinée. 
+                Je travaille sur l’amélioration des chatbots IA, l’analyse des données 
+                et le développement de solutions web modernes.
+            </p>
+        </section>
+
+        <!-- ===== COMPÉTENCES ===== -->
+        <section id="competences">
+            <h2>Compétences</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3><i class="fa-solid fa-code"></i> Développement Web</h3>
+                    <p>HTML, CSS, JavaScript, Angular, Laravel</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fa-solid fa-server"></i> Backend & API</h3>
+                    <p>Python, API REST, Git/GitHub</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fa-solid fa-robot"></i> IA & Chatbot</h3>
+                    <p>Bot Training, Machine Learning, RAG, Knowledge Base</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EXPÉRIENCES ===== -->
+        <section id="experience" class="experience">
+            <h2>Expériences professionnelles</h2>
+            <div class="experience-item">
+                <h3>Bot Trainer – Stagiaire Orange Guinée</h3>
+                <span>15/08/2023 – 15/08/2024</span>
+                <ul>
+                    <li>Mise en place des parcours clients</li>
+                    <li>Enrichissement des données d’entraînement</li>
+                    <li>Analyse et amélioration des performances du bot</li>
+                    <li>Apport de correctifs sur les lacunes identifiées</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Bot Trainer – Orange Guinée / Cawa-group (intérim)</h3>
+                <span>16/09/2024 – 15/09/2025</span>
+                <ul>
+                    <li>Enrichir les données d’entraînement et améliorer la compréhension du bot</li>
+                    <li>Mise en place d’un système de machine learning pour améliorer le bot</li>
+                    <li>Implémentation de solutions ML et RAG</li>
+                </ul>
+            </div>
+        </section>
+
+       <!-- ===== CERTIFICATIONS ===== -->
+        <section id="certifications">
+            <h2>Certifications</h2>
+
+            <div class="certifications">
+                <!-- Certification Fullstack mise en avant -->
+                <div class="certification highlight">
+                    <h3><i class="fa-solid fa-laptop-code"></i> Développeur Fullstack</h3>
+                    <span>Avril – Septembre 2025 | Dakar Institute of Technology</span>
+                    <p>
+                        Certification intensive en développement web moderne (Frontend & Backend). 
+                        Mise en pratique des frameworks, APIs et bonnes pratiques professionnelles.
+                    </p>
+                    <a href="certificats/Certificat de fullstackweb DIT.pdf" target="_blank" class="btn-certif">
+                        <i class="fa-solid fa-eye"></i> Voir
+                    </a>
+                </div>
+
+                <!-- Autres certifications -->
+                <div class="certification">
+                    <h3><i class="fa-solid fa-brain"></i> Initiation à l’Intelligence Artificielle</h3>
+                    <span>OpenClassroom</span>
+                    <p>Introduction aux concepts fondamentaux de l’IA et du Machine Learning.</p>
+                    <a href="certificats/initiez-vous à l'intelligence artificielle.pdf" target="_blank" class="btn-certif">
+                        <i class="fa-solid fa-eye"></i> Voir
+                    </a>
+                </div>
+
+                <div class="certification">
+                    <h3><i class="fa-solid fa-table"></i> Fondamentaux d’Excel</h3>
+                    <span>OpenClassroom</span>
+                    <p>Maîtrise des bases d’Excel pour l’analyse et la gestion de données.</p>
+                    <a href="certificats/Maîtrisez les fondamentaux d'Excel.pdf" target="_blank" class="btn-certif">
+                        <i class="fa-solid fa-eye"></i> Voir
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJETS ===== -->
+        <section id="projets">
+    <h2>Projets</h2>
+    <div class="projects">
+        <!-- Projet 1 -->
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Portfolio Personnel</h3>
+                <button class="toggle-btn" aria-expanded="false">+</button>
+            </div>
+            <div class="project-details">
+                <img 
+                    src="images/profile.jpg" 
+                    alt="Aperçu du projet Portfolio"
+                    class="project-image"
+                >
+                <p>
+                    Portfolio personnel développé en HTML, CSS et JavaScript.
+                    Design responsive, dark mode, animations au scroll et menu mobile.
+                </p>
+                <ul>
+                    <li>HTML5 sémantique</li>
+                    <li>CSS moderne (Flexbox, Grid)</li>
+                    <li>JavaScript (DOM, events)</li>
+                </ul>
+                <a 
+                    href="https://github.com/TON_USERNAME/Portofolio" 
+                    target="_blank" 
+                    class="project-link">
+                    <i class="fa-brands fa-github"></i> Voir le code sur GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- Projet 2 -->
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Landing Page Responsive</h3>
+                <button class="toggle-btn" aria-expanded="false">+</button>
+            </div>
+            <div class="project-details">
+                <p>
+                    Landing page moderne avec animations et interactions JavaScript.
+                </p>
+                <ul>
+                    <li>Responsive design</li>
+                    <li>Animations CSS</li>
+                    <li>Formulaire interactif</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <div class="social-links">
+                <p><i class="fa-solid fa-location-dot"></i> Conakry, Guinée</p>
+                <p><i class="fa-solid fa-phone"></i> +224 625 03 33 81</p>
+                <p><i class="fa-solid fa-envelope"></i> beavoguipaulbarre047@gmail.com</p><br>
+                <p>Vous pouvez me contacter par :</p>
+                <a href="https://wa.me/+224625033381?text=Bonjour Beavogui, je viens de voir ton portfolio et j’aimerais échanger avec toi." 
+                target="_blank" class="social-link">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="mailto:beavoguipaulbarre047@gmail.com" class="social-link">
+                    <i class="fa-solid fa-envelope"></i> Envoyer un mail
+                </a>
+                <p>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/BeavoguiDev" target="_blank">
+                        github.com/BeavoguiDev
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Beavogui Barrè | Portfolio</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
