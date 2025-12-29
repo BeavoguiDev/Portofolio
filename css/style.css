@@ -314,12 +314,15 @@ section h2 {
 }
 
 .project-details {
-    display: none;
-    animation: fadeIn 0.4s ease;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: height 0.4s ease, opacity 0.4s ease;
 }
 
 .project-details.open {
-    display: block;
+    height: auto;
+    opacity: 1;
 }
 
 .project-details ul {
