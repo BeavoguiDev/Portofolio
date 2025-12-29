@@ -138,6 +138,7 @@ section h2 {
     margin: auto;
     text-align: center;
     color: var(--gray-color);
+    font-size: 1.2em;
 }
 /* ===== COMPÉTENCES ===== */
 .skills {

@@ -138,12 +138,12 @@ const competences = [
     {
         icon: "fa-solid fa-code",
         title: "Développement Web",
-        description: "HTML, CSS, JavaScript, Angular, Laravel"
+        description: "HTML, CSS, JavaScript, Angular"
     },
     {
         icon: "fa-solid fa-server",
         title: "Backend & API",
-        description: "Python, API REST, Git/GitHub"
+        description: "Laravel, API REST, Mysql, Git/GitHub"
     },
     {
         icon: "fa-solid fa-robot",
