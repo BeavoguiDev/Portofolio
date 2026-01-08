@@ -1,0 +1,92 @@
+#chatbot-toggle {
+  Position : fixed ;
+  Bottom : 20px ;
+  Right : 20px ;
+  Background : #0d6efd ;
+  Color : #fff ;
+  Padding : 12px ;
+  Border-radius : 50% ;
+  Cursor : pointer ;
+  Font-size : 20px ;
+}
+
+#chatbot {
+  Position : fixed ;
+  Bottom : 80px ;
+  Right : 20px ;
+  Width : 300px ;
+  Background : #fff ;
+  Border-radius : 10px ;
+  Box-shadow : 0 0 10px rgba(0,0,0,0.2) ;
+  Display : none ;
+  Flex-direction : column ;
+}
+
+.chatbot-header {
+  Background : #0d6efd ;
+  Color : white ;
+  Padding : 10px ;
+  Display : flex ;
+  Justify-content : space-between ;
+}
+
+#chatbot-messages {
+  Padding : 10px ;
+  Height : 200px ;
+  Overflow-y : auto ;
+  Font-size : 14px ;
+}
+
+.message.user {
+  Text-align : right ;
+  Color : #0d6efd ;
+}
+
+.message.bot {
+  Text-align : left ;
+  Color : #333 ;
+}
+
+.chatbot-input {
+  Display : flex ;
+  Border-top : 1px solid #ddd ;
+}
+
+.chatbot-input input {
+  Flex : 1 ;
+  Padding : 8px ;
+  Border : none ;
+}
+
+.chatbot-input button {
+  Background : #0d6efd ;
+  Color : white ;
+  Border : none ;
+  Padding : 8px 12px ;
+  Cursor : pointer ;
+}
+
+.quick-questions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.quick-questions button {
+  flex: 1;
+  background: #f1f3f5;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.quick-questions button:hover {
+  background: #0d6efd;
+  color: #fff;
+}
+
