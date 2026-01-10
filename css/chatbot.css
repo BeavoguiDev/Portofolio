@@ -14,7 +14,7 @@
   Position : fixed ;
   Bottom : 80px ;
   Right : 20px ;
-  Width : 300px ;
+  Width : 400px ;
   Background : #fff ;
   Border-radius : 10px ;
   Box-shadow : 0 0 10px rgba(0,0,0,0.2) ;
@@ -36,6 +36,13 @@
   Overflow-y : auto ;
   Font-size : 14px ;
 }
+#close-chatbot{
+  cursor: pointer;
+}
+
+#close-chatbot:hover{
+  color: red;
+}
 
 .message.user {
   Text-align : right ;
@@ -45,6 +52,10 @@
 .message.bot {
   Text-align : left ;
   Color : #333 ;
+}
+
+.message.bot strong {
+  color: #0d6efd;
 }
 
 .chatbot-input {
@@ -89,4 +100,17 @@
   background: #0d6efd;
   color: #fff;
 }
+
+.message.typing {
+  font-style: italic;
+  opacity: 0.7;
+  animation: blink 2.4s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 0.4; }
+  50% { opacity: 0.9; }
+  100% { opacity: 0.4; }
+}
+
 

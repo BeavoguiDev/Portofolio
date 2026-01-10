@@ -1,0 +1,60 @@
+{
+  "competences": {
+    "frontend": [
+      "HTML5 / CSS3",
+      "JavaScript (DOM, ES6)",
+      "React",
+      "Angular"
+    ],
+    "backend": [
+      "Django",
+      "Laravel",
+      "API REST"
+    ],
+    "outils": [
+      "Git / GitHub",
+      "Docker"
+    ],
+    "bot_trainer": [
+      "Bot training",
+      "Conception de parcours conversationnels",
+      "NLP (intention, entités)",
+      "Enrichissement des données",
+      "RAG (Retrieval Augmented Generation)",
+      "Analyse des performances"
+    ]
+  },
+
+  "projets": [
+    {
+      "nom": "Portfolio personnel",
+      "description": "Portfolio développé en HTML, CSS et JavaScript."
+    },
+    {
+      "nom": "Application de gestion de stock",
+      "description": "Angular + Laravel + API REST + MySQL."
+    }
+  ],
+
+  "experiences": [
+    {
+      "poste": "Bot Trainer – Orange Guinée",
+      "periode": "2023 – 2024",
+      "missions": [
+        "Enrichissement des données d’entraînement",
+        "Analyse des performances du chatbot",
+        "Amélioration de la compréhension NLP"
+      ]
+    }
+  ],
+
+  "certifications": [
+    "Développeur Fullstack – Dakar Institute of Technology",
+    "Initiation à l’Intelligence Artificielle – OpenClassrooms"
+  ],
+
+  "contact": {
+    "email": "beavoguipaulbarre047@gmail.com",
+    "linkedin": "linkedin.com/in/beavogui"
+  }
+}
