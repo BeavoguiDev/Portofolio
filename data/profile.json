@@ -3,11 +3,9 @@
     "frontend": [
       "HTML5 / CSS3",
       "JavaScript (DOM, ES6)",
-      "React",
       "Angular"
     ],
     "backend": [
-      "Django",
       "Laravel",
       "API REST"
     ],
@@ -16,19 +14,16 @@
       "Docker"
     ],
     "bot_trainer": [
-      "Bot training",
-      "Conception de parcours conversationnels",
+      "Conception d'un chatbot simple",
       "NLP (intention, entités)",
-      "Enrichissement des données",
-      "RAG (Retrieval Augmented Generation)",
-      "Analyse des performances"
+      "Conception chatbot d'Intelligence Artificielle"
     ]
   },
 
   "projets": [
     {
       "nom": "Portfolio personnel",
-      "description": "Portfolio développé en HTML, CSS et JavaScript."
+      "description": "Portfolio développé en HTML, CSS et JavaScript, Chatbot"
     },
     {
       "nom": "Application de gestion de stock",
@@ -44,6 +39,15 @@
         "Enrichissement des données d’entraînement",
         "Analyse des performances du chatbot",
         "Amélioration de la compréhension NLP"
+      ]
+    },
+    {
+      "poste": "Bot Trainer – Cawagroup/Orange Guinée",
+      "periode": "2024 – 2025",
+      "missions": [
+        "Mise en place d’un système de machine learning pour améliorer le bot",
+        "Implémentation D'un chatbot IA ",
+        "Creation base de connaissance IA "
       ]
     }
   ],
